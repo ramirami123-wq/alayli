@@ -67,7 +67,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "AURORA",
+            "text": "ARZSOUQ",
             "text_size": 20,
             "link": ""
           }
@@ -123,55 +123,19 @@
     "scrolling_promotion_4AzLii": {
       "type": "scrolling-promotion",
       "blocks": {
-        "announcement_gA4hh3": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "Welcome to our store",
-            "text_size": 20,
-            "link": ""
-          }
-        },
-        "announcement_GdAqk8": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "Welcome to our store",
-            "text_size": 20,
-            "link": ""
-          }
-        },
-        "announcement_Twbczw": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "Welcome to our store",
-            "text_size": 20,
-            "link": ""
-          }
-        },
         "announcement_HG663G": {
           "type": "announcement",
           "settings": {
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "Welcome to our store",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
             "text_size": 20,
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement_gA4hh3",
-        "announcement_GdAqk8",
-        "announcement_Twbczw",
         "announcement_HG663G"
       ],
       "name": "t:sections.scrolling-promotion.presets.name",
@@ -241,7 +205,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "WELCOME TO AURORA",
+            "text": "WELCOME TO ARZSTORE",
             "text_size": 20,
             "link": ""
           }
@@ -322,17 +286,6 @@
     "guarantees_QbnCCW": {
       "type": "guarantees",
       "blocks": {
-        "guarantee_aaHNHE": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "phone",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "24/7 Customer Support",
-            "title_size": "h3",
-            "text": ""
-          }
-        },
         "guarantee_ej4aWF": {
           "type": "guarantee",
           "settings": {
@@ -357,7 +310,6 @@
         }
       },
       "block_order": [
-        "guarantee_aaHNHE",
         "guarantee_ej4aWF",
         "guarantee_g6xKng"
       ],
