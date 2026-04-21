@@ -292,12 +292,24 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_iEVF9p": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
+    "1776785939ddfdc5a1": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_8faU8Y": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "real_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_8faU8Y"
+      ],
       "settings": {
-        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .reviews-section {\n    background: #b82e38;\n    padding: 32px 16px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n    text-align: center;\n  }\n\n  .reviews-stars-row {\n    display: flex;\n    justify-content: center;\n    gap: 8px;\n    margin-bottom: 12px;\n  }\n\n  .reviews-stars {\n    color: #e8a0b4;\n    font-size: 20px;\n  }\n\n  .reviews-title {\n    font-size: 28px;\n    font-weight: 900;\n    color: white;\n    text-transform: uppercase;\n    margin-bottom: 24px;\n  }\n\n  .reviews-tabs {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 10px;\n    justify-content: center;\n    margin-bottom: 28px;\n  }\n\n  .reviews-tab {\n    padding: 10px 20px;\n    border-radius: 50px;\n    border: 2px solid #ccc;\n    background: #fff;\n    font-size: 14px;\n    font-weight: 700;\n    cursor: pointer;\n  }\n\n  .reviews-tab.active {\n    background: #c0607a;\n    border-color: #c0607a;\n    color: #fff;\n  }\n\n  .reviews-grid {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 24px;\n    max-width: 1000px;\n    margin: 0 auto;\n  }\n\n  .review-card {\n    text-align: center;\n  }\n\n  .review-card-stars {\n    color: #e8a0b4;\n    font-size: 18px;\n  }\n\n  .review-card-text {\n    font-size: 14px;\n    color: #222;\n  }\n\n  .review-card-author {\n    font-weight: 700;\n    margin-top: 6px;\n  }\n\n  @media (max-width: 599px) {\n    .reviews-grid {\n      grid-template-columns: 1fr;\n    }\n  }\n</style>\n\n<div class=\"reviews-section\">\n\n  <div class=\"reviews-stars-row\">\n    <span class=\"reviews-stars\">★★★★★</span>\n    <span>4.9 stars</span>\n  </div>\n\n  <h2 class=\"reviews-title\">Write. Reflect. Improve.</h2>\n\n  <div class=\"reviews-tabs\">\n    <button class=\"reviews-tab active\" onclick=\"switchTab('learning', event)\">Learning</button>\n    <button class=\"reviews-tab\" onclick=\"switchTab('handwriting', event)\">Handwriting</button>\n    <button class=\"reviews-tab\" onclick=\"switchTab('experience', event)\">Experience</button>\n    <button class=\"reviews-tab\" onclick=\"switchTab('ease', event)\">Ease of Use</button>\n    <button class=\"reviews-tab\" onclick=\"switchTab('repurchase', event)\">Would Buy Again</button>\n  </div>\n\n  <div class=\"reviews-grid\" id=\"reviews-grid\"></div>\n\n</div>\n\n<script>\n  const allReviews = {\n    learning: [\n      { text: \"Helped me stay consistent with my daily Qur’an practice.\", author: \"Amina H.\" },\n      { text: \"I feel more connected to the ayahs when I write them.\", author: \"Yusuf K.\" },\n      { text: \"Great tool for learning and reflecting at the same time.\", author: \"Sara M.\" },\n    ],\n    handwriting: [\n      { text: \"My Arabic handwriting improved so much.\", author: \"Omar T.\" },\n      { text: \"Perfect for practicing writing clearly and neatly.\", author: \"Lina A.\" },\n      { text: \"I finally feel confident writing in Arabic.\", author: \"Hassan R.\" },\n    ],\n    experience: [\n      { text: \"Such a calming and mindful experience.\", author: \"Fatima S.\" },\n      { text: \"Makes learning feel peaceful and enjoyable.\", author: \"Noor B.\" },\n      { text: \"Beautiful design and very motivating to use.\", author: \"Zainab K.\" },\n    ],\n    ease: [\n      { text: \"Super easy to use and reuse every day.\", author: \"Ahmed D.\" },\n      { text: \"Write, erase, and repeat—simple and effective.\", author: \"Mariam F.\" },\n      { text: \"Perfect for both beginners and advanced learners.\", author: \"Ali J.\" },\n    ],\n    repurchase: [\n      { text: \"I bought one for myself and another as a gift.\", author: \"Huda N.\" },\n      { text: \"Definitely worth it, I use it every day.\", author: \"Khalid M.\" },\n      { text: \"Would highly recommend to anyone learning Qur’an.\", author: \"Aisha L.\" },\n    ]\n  };\n\n  function switchTab(tab, event) {\n    document.querySelectorAll('.reviews-tab').forEach(btn => btn.classList.remove('active'));\n    event.target.classList.add('active');\n\n    const reviews = allReviews[tab];\n\n    document.getElementById('reviews-grid').innerHTML = reviews.map(r => `\n      <div class=\"review-card\">\n        <div class=\"review-card-stars\">★★★★★</div>\n        <p class=\"review-card-text\">${r.text}</p>\n        <span class=\"review-card-author\">${r.author}</span>\n      </div>\n    `).join('');\n  }\n\n  switchTab('learning', { target: document.querySelector('.reviews-tab') });\n</script>",
-        "full_width": false,
+        "include_margins": true,
         "show_divider": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -366,7 +378,7 @@
     "video_hHyVf7",
     "custom_liquid_9wriWH",
     "custom_liquid_V8XFgq",
-    "custom_liquid_iEVF9p",
+    "1776785939ddfdc5a1",
     "guarantees_Yj7NaV"
   ]
 }
