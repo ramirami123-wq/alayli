@@ -171,7 +171,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/images_12.jpg",
+        "image": "shopify://shop_images/download_1.avif",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
