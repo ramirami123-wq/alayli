@@ -19,12 +19,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "custom_liquid_Q4eMAn": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n  .star-review-wrapper {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    flex-shrink: 0;\n  }\n\n  .star-icons svg {\n    width: 20px;\n    height: 20px;\n    fill: #b82e38; /* Your deep red color */\n  }\n\n  .review-text {\n    font-size: 16px;\n    font-weight: 500;\n    color: #333;\n    white-space: nowrap;\n  }\n\n  @media (max-width: 480px) {\n    .star-review-wrapper {\n      flex-direction: row;\n      justify-content: center;\n    }\n\n    .review-text {\n      font-size: 15px;\n    }\n  }\n</style>\n\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <!-- 5 Rounded Stars -->\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n  </div>\n  <div class=\"review-text\">\n    <strong>5</strong> by <strong>194+</strong> Customers\n  </div>\n</div>"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -44,12 +38,6 @@
             "price_size": "medium",
             "show_badges": true,
             "sale_badge_basis": "auto"
-          }
-        },
-        "custom_liquid_TJV3Ri": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<section class=\"sale-timer\" aria-label=\"Sale countdown timer\">\n  <style>\n    .sale-timer{\n      width:100%;\n      padding:22px 12px;\n      display:flex;\n      justify-content:center;\n      background:##CB572A;\n      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n    }\n    .sale-timer__wrap{\n      text-align:center;\n    }\n    .sale-timer__label{\n      font-size:24px;\n      font-weight:500;\n      color:#111;\n      margin:0 0 14px 0;\n      line-height:1.1;\n    }\n\n    .sale-timer__row{\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      gap:10px;\n    }\n\n    .sale-timer__box{\n      width:88px;\n      height:68px;\n      background:#b82e38;\n      color:#fff;\n      border-radius:6px;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-size:34px;\n      font-weight:700;\n      letter-spacing:1px;\n      font-variant-numeric: tabular-nums;\n    }\n\n    .sale-timer__colon{\n      font-size:32px;\n      font-weight:700;\n      color:#ff2a2a;\n      line-height:1;\n      transform: translateY(-1px);\n      user-select:none;\n    }\n\n    @media (max-width:420px){\n      .sale-timer__label{ font-size:20px; }\n      .sale-timer__box{ width:72px; height:58px; font-size:30px; }\n      .sale-timer__colon{ font-size:28px; }\n      .sale-timer__row{ gap:8px; }\n    }\n  </style>\n\n  <div class=\"sale-timer__wrap\">\n    <div class=\"sale-timer__label\">Hurry! Sale ends in</div>\n\n    <div class=\"sale-timer__row\" role=\"timer\" aria-live=\"polite\">\n      <div class=\"sale-timer__box\" id=\"st-hours\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-mins\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-secs\">00</div>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      const durationHours = 12; // change if needed\n      const endAt = Date.now() + durationHours * 60 * 60 * 1000;\n\n      const h = document.getElementById(\"st-hours\");\n      const m = document.getElementById(\"st-mins\");\n      const s = document.getElementById(\"st-secs\");\n\n      const pad = n => String(n).padStart(2, \"0\");\n\n      function update(){\n        let diff = endAt - Date.now();\n        if(diff < 0) diff = 0;\n\n        const total = Math.floor(diff / 1000);\n        h.textContent = pad(Math.floor(total / 3600));\n        m.textContent = pad(Math.floor((total % 3600) / 60));\n        s.textContent = pad(total % 60);\n\n        if(diff === 0) clearInterval(timer);\n      }\n\n      update();\n      const timer = setInterval(update, 1000);\n    })();\n  </script>\n</section>"
           }
         },
         "custom_liquid_H9DXEK": {
@@ -101,11 +89,9 @@
         }
       },
       "block_order": [
-        "custom_liquid_Q4eMAn",
         "title",
         "rating",
         "price",
-        "custom_liquid_TJV3Ri",
         "custom_liquid_H9DXEK",
         "variant_picker",
         "buy_buttons",
@@ -242,35 +228,53 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_XBTnDN": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
+    "faq_YyMMD8": {
+      "type": "faq",
+      "blocks": {
+        "question_zjjBKL": {
+          "type": "question",
+          "settings": {
+            "title": "What is the purpose of this book?",
+            "text": "<p>It is designed to help you engage with the words of the Qur’an through reading and writing, allowing each ayah to be experienced with focus and reflection.</p>"
+          }
+        },
+        "question_J7BAka": {
+          "type": "question",
+          "settings": {
+            "title": "How does it help with connection to the Qur’an?",
+            "text": "<p>By engaging both the eyes and the hand, it encourages presence with every word, helping you reflect more deeply on the meanings of the ayahs.</p><h3></h3>"
+          }
+        },
+        "question_ABE7rG": {
+          "type": "question",
+          "settings": {
+            "title": "Who is this book for?",
+            "text": "<p>It is for anyone seeking a more mindful and meaningful relationship with the Qur’an through reading, writing, and reflection.</p><h3></h3>"
+          }
+        },
+        "question_CzWiUT": {
+          "type": "question",
+          "settings": {
+            "title": "Is it suitable as a gift?",
+            "text": "<p>Absolutely. It is a meaningful and thoughtful gift that encourages reflection and a deeper connection with the words of Allah.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_zjjBKL",
+        "question_J7BAka",
+        "question_ABE7rG",
+        "question_CzWiUT"
+      ],
+      "name": "t:sections.faq.presets.name",
       "settings": {
-        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n<style>\n  .hurry-section {\n    background: #ffffff;\n    padding: 40px 24px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n    text-align: center;\n  }\n  .hurry-title {\n    font-size: 36px;\n    font-weight: 900;\n    color: #111;\n    text-transform: uppercase;\n    line-height: 1.1;\n    margin: 0 0 12px;\n  }\n  .hurry-subtitle {\n    font-size: 15px;\n    color: #333;\n    margin: 0 0 28px;\n  }\n  .hurry-bullets {\n    list-style: none;\n    padding: 0;\n    margin: 0 auto;\n    display: flex;\n    flex-direction: column;\n    gap: 16px;\n    text-align: left;\n    max-width: 620px;\n  }\n  .hurry-bullet {\n    display: flex;\n    gap: 14px;\n    font-size: 15px;\n    color: #222;\n  }\n  .hurry-check {\n    width: 28px;\n    height: 28px;\n  }\n</style>\n\n<div class=\"hurry-section\">\n  <h2 class=\"hurry-title\">Reflect & Connect<br>With Every Ayah</h2>\n  <p class=\"hurry-subtitle\">A meaningful way to engage with the words of the Qur’an</p>\n  <ul class=\"hurry-bullets\">\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Engage with the words of Allah through writing and reflection.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Slow down and immerse yourself in the meaning of each ayah.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Strengthen your connection with the Qur’an in a calm and mindful way.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Encourage presence, sincerity, and deeper spiritual reflection.</span>\n    </li>\n\n  </ul>\n</div>",
-        "full_width": false,
+        "narrow": false,
+        "secondary_background": false,
         "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "custom_liquid_9wriWH": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .compare-section {\n    background: #fff5f8;\n    padding: 48px 16px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n    text-align: center;\n  }\n\n  .compare-title {\n    font-size: 28px;\n    font-weight: 900;\n    color: #111;\n    text-transform: uppercase;\n    margin: 0 0 8px;\n  }\n\n  .compare-subtitle {\n    font-size: 15px;\n    color: #666;\n    margin: 0 0 32px;\n  }\n\n  .compare-wrapper {\n    max-width: 780px;\n    margin: 0 auto;\n    border-radius: 16px;\n    overflow: hidden;\n    box-shadow: 0 4px 32px rgba(192, 96, 122, 0.12);\n  }\n\n  .compare-header {\n    display: grid;\n    grid-template-columns: 2fr 1fr 1fr;\n    background: #111;\n  }\n\n  .compare-header-cell {\n    padding: 16px 12px;\n    font-size: 13px;\n    font-weight: 800;\n    color: #aaa;\n  }\n\n  .compare-header-cell.us {\n    background: #b82e38;\n    color: #fff;\n  }\n\n  .compare-row {\n    display: grid;\n    grid-template-columns: 2fr 1fr 1fr;\n    border-top: 1px solid #f0e0e5;\n    background: #fff;\n  }\n\n  .compare-cell {\n    padding: 16px;\n    display: flex;\n    justify-content: center;\n    border-left: 1px solid #b82e38;\n  }\n\n  .compare-cell:first-child {\n    justify-content: flex-start;\n    border-left: none;\n    font-weight: 600;\n  }\n\n  .compare-cell.us-col {\n    background: #b82e38;\n  }\n\n  .check, .cross {\n    width: 26px;\n    height: 26px;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-weight: bold;\n  }\n\n  .check {\n    background: #b82e38;\n    color: #fff;\n  }\n\n  .cross {\n    background: #eee;\n    color: #aaa;\n  }\n</style>\n\n<div class=\"compare-section\">\n\n  <h2 class=\"compare-title\">Why Choose This Qur’an Companion?</h2>\n  <p class=\"compare-subtitle\">A deeper way to engage with the words of Allah</p>\n\n  <div class=\"compare-wrapper\">\n\n    <div class=\"compare-header\">\n      <div class=\"compare-header-cell\">Experience</div>\n      <div class=\"compare-header-cell us\">✦ Ours</div>\n      <div class=\"compare-header-cell\">Others</div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Encourages Reflection with Every Ayah</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Creates a Calm & Mindful Experience</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Strengthens Your Connection with the Qur’an</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Encourages Presence & Sincerity</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Transforms Reading into a Deeper Experience</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n  </div>\n\n</div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "custom_liquid_V8XFgq": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .faq-section {\n    background: #fff;\n    padding: 48px 16px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n  }\n\n  .faq-inner {\n    max-width: 720px;\n    margin: 0 auto;\n  }\n\n  .faq-title {\n    font-size: 28px;\n    font-weight: 900;\n    color: #111;\n    text-transform: uppercase;\n    text-align: center;\n  }\n\n  .faq-subtitle {\n    font-size: 15px;\n    color: #666;\n    text-align: center;\n    margin-bottom: 36px;\n  }\n\n  .faq-item {\n    border-bottom: 1px solid #f0e0e5;\n  }\n\n  .faq-question {\n    width: 100%;\n    background: none;\n    border: none;\n    padding: 18px 4px;\n    display: flex;\n    justify-content: space-between;\n    cursor: pointer;\n    font-size: 15px;\n    font-weight: 700;\n  }\n\n  .faq-icon {\n    width: 28px;\n    height: 28px;\n    border-radius: 50%;\n    background: #b82e38;\n    border: 2px solid #f0ccd6;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    color: #c0607a;\n  }\n\n  .faq-question.open .faq-icon {\n    background: #c0607a;\n    color: #fff;\n    transform: rotate(45deg);\n  }\n\n  .faq-answer {\n    max-height: 0;\n    overflow: hidden;\n    transition: 0.3s;\n  }\n\n  .faq-answer.open {\n    max-height: 300px;\n    padding-bottom: 18px;\n  }\n\n  .faq-answer p {\n    font-size: 14px;\n    color: #555;\n  }\n</style>\n\n<div class=\"faq-section\">\n  <div class=\"faq-inner\">\n\n    <h2 class=\"faq-title\">Frequently Asked Questions</h2>\n    <p class=\"faq-subtitle\">Everything you need to know about this Qur’an companion ✨</p>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFaq(this)\">\n        What is the purpose of this book?\n        <span class=\"faq-icon\">+</span>\n      </button>\n      <div class=\"faq-answer\">\n        <p>It is designed to help you engage with the words of the Qur’an through reading and writing, allowing each ayah to be experienced with focus and reflection.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFaq(this)\">\n        How does it help with connection to the Qur’an?\n        <span class=\"faq-icon\">+</span>\n      </button>\n      <div class=\"faq-answer\">\n        <p>By engaging both the eyes and the hand, it encourages presence with every word, helping you reflect more deeply on the meanings of the ayahs.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFaq(this)\">\n        Who is this book for?\n        <span class=\"faq-icon\">+</span>\n      </button>\n      <div class=\"faq-answer\">\n        <p>It is for anyone seeking a more mindful and meaningful relationship with the Qur’an through reading, writing, and reflection.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFaq(this)\">\n        Can it be part of a daily routine?\n        <span class=\"faq-icon\">+</span>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Yes, it is a beautiful way to bring consistency into your daily connection with the Qur’an, even in a short amount of time.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFaq(this)\">\n        Is it suitable as a gift?\n        <span class=\"faq-icon\">+</span>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Absolutely. It is a meaningful and thoughtful gift that encourages reflection and a deeper connection with the words of Allah.</p>\n      </div>\n    </div>\n\n  </div>\n</div>\n\n<script>\n  function toggleFaq(btn) {\n    const answer = btn.nextElementSibling;\n    const isOpen = btn.classList.contains('open');\n\n    document.querySelectorAll('.faq-question').forEach(q => q.classList.remove('open'));\n    document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('open'));\n\n    if (!isOpen) {\n      btn.classList.add('open');\n      answer.classList.add('open');\n    }\n  }\n</script>",
-        "full_width": false,
-        "show_divider": false,
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -357,9 +361,7 @@
     "product-recommendations",
     "image_with_text_DzfFjg",
     "scrolling_promotion_TxXJLQ",
-    "custom_liquid_XBTnDN",
-    "custom_liquid_9wriWH",
-    "custom_liquid_V8XFgq",
+    "faq_YyMMD8",
     "1776785939ddfdc5a1",
     "guarantees_Yj7NaV"
   ]
