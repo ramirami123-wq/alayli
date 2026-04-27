@@ -43,7 +43,7 @@
         "custom_liquid_H9DXEK": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">📖 A Journey With the Qur’an</span> – Engage with the words of Allah through writing, allowing each ayah to be read, reflected upon, and carried in your heart.<br><br>\n\n<span style=\"font-weight: bold;\">🌙 Deepen Your Connection</span> – A meaningful way to slow down, focus, and connect spiritually with the Qur’an in a calm and mindful manner.<br><br>\n\n<span style=\"font-weight: bold;\">✨ Strengthen Reflection & Presence</span> – Designed to help you stay present with every word, encouraging sincerity, reflection, and a closer relationship with your faith.\n\n</div>"
+            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">🔍 Zoom-Activated Lens Effect</span> – Experience a unique visual effect where the lenses appear darker as you focus or zoom in, giving you a bold and dynamic look.<br><br>\n\n<span style=\"font-weight: bold;\">🕶️ Smart Light Adjustment</span> – Designed to adapt visually, creating a deeper tint effect that enhances both style and comfort in different lighting conditions.<br><br>\n\n<span style=\"font-weight: bold;\">✨ Modern Futuristic Design</span> – Sleek round frames combined with innovative lens behavior make these glasses stand out wherever you go.\n\n</div>"
           }
         },
         "variant_picker": {
@@ -151,7 +151,7 @@
         "heading_9DxViA": {
           "type": "heading",
           "settings": {
-            "heading": "Reusable Qur’an Writing Book",
+            "heading": "Eclipse Zoom Glasses",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -159,7 +159,7 @@
         "text_KJgqzb": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>Practice, reflect, and reconnect with the words of the Qur’an through writing. This beautifully designed book allows you to write, erase, and repeat, helping you improve your handwriting while deepening your focus and understanding.<br/><br/></p>",
+            "text": "<p>Experience the next level of eyewear with lenses that adapt as you focus. These sleek round glasses create a darker, more intense look when you zoom in, blending futuristic design with everyday comfort and style.</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -171,7 +171,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/ChatGPT_Image_Apr_21_2026_07_08_52_PM.png",
+        "image": "shopify://shop_images/images_12.jpg",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -205,7 +205,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "Use it, love it… or get 100% of your money back",
+            "text": "See deeper. Look sharper.",
             "text_size": 20,
             "link": ""
           }
@@ -234,29 +234,29 @@
         "question_zjjBKL": {
           "type": "question",
           "settings": {
-            "title": "What is the purpose of this book?",
-            "text": "<p>It is designed to help you engage with the words of the Qur’an through reading and writing, allowing each ayah to be experienced with focus and reflection.</p>"
+            "title": "What makes these glasses unique?",
+            "text": "<p>These glasses feature a special lens effect that appears darker as you focus, creating a bold and dynamic look.</p><h3></h3>"
           }
         },
         "question_J7BAka": {
           "type": "question",
           "settings": {
-            "title": "How does it help with connection to the Qur’an?",
-            "text": "<p>By engaging both the eyes and the hand, it encourages presence with every word, helping you reflect more deeply on the meanings of the ayahs.</p><h3></h3>"
+            "title": "Do the lenses actually zoom?",
+            "text": "<p>No, they don’t provide optical zoom. The effect is visual, giving a darker appearance when you focus.</p><h3></h3>"
           }
         },
         "question_ABE7rG": {
           "type": "question",
           "settings": {
-            "title": "Who is this book for?",
-            "text": "<p>It is for anyone seeking a more mindful and meaningful relationship with the Qur’an through reading, writing, and reflection.</p><h3></h3>"
+            "title": "Are they comfortable for daily wear?",
+            "text": "<p>Yes, they are lightweight and designed for all-day comfort.</p><h3></h3>"
           }
         },
         "question_CzWiUT": {
           "type": "question",
           "settings": {
-            "title": "Is it suitable as a gift?",
-            "text": "<p>Absolutely. It is a meaningful and thoughtful gift that encourages reflection and a deeper connection with the words of Allah.</p>"
+            "title": "Can I wear them outdoors?",
+            "text": "<p>Yes, they’re perfect for both indoor and outdoor use, adding style while helping with light exposure.</p>"
           }
         }
       },
