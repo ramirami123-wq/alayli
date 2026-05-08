@@ -157,7 +157,7 @@
         "heading_9DxViA": {
           "type": "heading",
           "settings": {
-            "heading": "Effortless Beauty, All in One Stick",
+            "heading": "How to Use GlowPod",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -165,7 +165,7 @@
         "text_KJgqzb": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>Simplify your routine with a multi-use formula designed to enhance your natural glow. From cheeks to lips and eyes, this creamy, blendable stick delivers a smooth, radiant finish while nourishing your skin with every application.<br/><br/></p>",
+            "text": "<p>Open the lid and fill GlowPod with your favorite sunscreen. Secure the roller applicator back into place, then gently glide it across your skin for smooth, even, and mess-free sunscreen application anytime, anywhere.</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -177,6 +177,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/He7dbc65c88714d478b99161fc0dfa22bG.jpg",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -210,7 +211,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "free delivery all over lebanon",
+            "text": "Sun protection made simple, clean, and effortless.",
             "text_size": 20,
             "link": ""
           }
@@ -237,27 +238,9 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n<style>\n  .hurry-section {\n    background: #ffffff;\n    padding: 40px 24px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n    text-align: center;\n  }\n  .hurry-title {\n    font-size: 36px;\n    font-weight: 900;\n    color: #111;\n    text-transform: uppercase;\n    line-height: 1.1;\n    margin: 0 0 12px;\n  }\n  .hurry-subtitle {\n    font-size: 15px;\n    color: #333;\n    margin: 0 0 28px;\n  }\n  .hurry-bullets {\n    list-style: none;\n    padding: 0;\n    margin: 0 auto;\n    display: flex;\n    flex-direction: column;\n    gap: 16px;\n    text-align: left;\n    max-width: 620px;\n  }\n  .hurry-bullet {\n    display: flex;\n    gap: 14px;\n    font-size: 15px;\n    color: #222;\n  }\n  .hurry-check {\n    width: 28px;\n    height: 28px;\n  }\n</style>\n\n<div class=\"hurry-section\">\n  <h2 class=\"hurry-title\">Glow Effortlessly<br>All In One Stick</h2>\n  <p class=\"hurry-subtitle\">Use this multi-use beauty stick so you can...</p>\n  <ul class=\"hurry-bullets\">\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Achieve a complete makeup look using just one product for cheeks, lips, and eyes.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Enjoy a smooth, creamy formula that blends effortlessly into your skin.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Keep your skin hydrated and glowing with nourishing, skin-loving ingredients.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Save time with quick, easy application—perfect for everyday use or on-the-go touch-ups.</span>\n    </li>\n\n  </ul>\n</div>",
+        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n<style>\n  .hurry-section {\n    background: #ffffff;\n    padding: 40px 24px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n    text-align: center;\n  }\n  .hurry-title {\n    font-size: 36px;\n    font-weight: 900;\n    color: #111;\n    text-transform: uppercase;\n    line-height: 1.1;\n    margin: 0 0 12px;\n  }\n  .hurry-subtitle {\n    font-size: 15px;\n    color: #333;\n    margin: 0 0 28px;\n  }\n  .hurry-bullets {\n    list-style: none;\n    padding: 0;\n    margin: 0 auto;\n    display: flex;\n    flex-direction: column;\n    gap: 16px;\n    text-align: left;\n    max-width: 620px;\n  }\n  .hurry-bullet {\n    display: flex;\n    gap: 14px;\n    font-size: 15px;\n    color: #222;\n  }\n  .hurry-check {\n    width: 28px;\n    height: 28px;\n  }\n</style>\n\n<div class=\"hurry-section\">\n  <h2 class=\"hurry-title\">Stay Protected<br>With GlowPod</h2>\n  <p class=\"hurry-subtitle\">Use GlowPod so you can...</p>\n  <ul class=\"hurry-bullets\">\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#8b5cf6\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Apply sunscreen quickly and evenly without messy or sticky hands.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#8b5cf6\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Carry your sunscreen anywhere with a compact, travel-friendly design.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#8b5cf6\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Enjoy smooth and comfortable application with a soft rolling sponge applicator.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#8b5cf6\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Protect your skin anytime during beach trips, travel, sports, or everyday outdoor activities.</span>\n    </li>\n\n  </ul>\n</div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video_hHyVf7": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/WhatsApp Video 2026-04-07 at 3.40.14 PM.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "show_divider": false,
-        "heading": "Video",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -266,20 +249,60 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .compare-section {\n    background: #fff5f8;\n    padding: 48px 16px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n    text-align: center;\n  }\n\n  .compare-title {\n    font-size: 28px;\n    font-weight: 900;\n    color: #111;\n    text-transform: uppercase;\n    margin: 0 0 8px;\n  }\n\n  .compare-subtitle {\n    font-size: 15px;\n    color: #666;\n    margin: 0 0 32px;\n  }\n\n  .compare-wrapper {\n    max-width: 780px;\n    margin: 0 auto;\n    border-radius: 16px;\n    overflow: hidden;\n    box-shadow: 0 4px 32px rgba(192, 96, 122, 0.12);\n  }\n\n  .compare-header {\n    display: grid;\n    grid-template-columns: 2fr 1fr 1fr;\n    background: #111;\n  }\n\n  .compare-header-cell {\n    padding: 16px 12px;\n    font-size: 13px;\n    font-weight: 800;\n    color: #aaa;\n  }\n\n  .compare-header-cell.us {\n    background: #b82e38;\n    color: #fff;\n  }\n\n  .compare-row {\n    display: grid;\n    grid-template-columns: 2fr 1fr 1fr;\n    border-top: 1px solid #f0e0e5;\n    background: #fff;\n  }\n\n  .compare-cell {\n    padding: 16px;\n    display: flex;\n    justify-content: center;\n    border-left: 1px solid #b82e38;\n  }\n\n  .compare-cell:first-child {\n    justify-content: flex-start;\n    border-left: none;\n    font-weight: 600;\n  }\n\n  .compare-cell.us-col {\n    background: #b82e38;\n  }\n\n  .check, .cross {\n    width: 26px;\n    height: 26px;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-weight: bold;\n  }\n\n  .check {\n    background: #b82e38;\n    color: #fff;\n  }\n\n  .cross {\n    background: #eee;\n    color: #aaa;\n  }\n</style>\n\n<div class=\"compare-section\">\n\n  <h2 class=\"compare-title\">Why Choose This Beauty Stick?</h2>\n  <p class=\"compare-subtitle\">See how it compares to regular makeup products</p>\n\n  <div class=\"compare-wrapper\">\n\n    <div class=\"compare-header\">\n      <div class=\"compare-header-cell\">Features</div>\n      <div class=\"compare-header-cell us\">✦ Ours</div>\n      <div class=\"compare-header-cell\">Others</div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Multi-Use (Cheeks, Lips, Eyes)</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Creamy, Blendable Formula</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Hydrating & Skin-Nourishing</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Quick & Easy Application</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Perfect for On-the-Go Use</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n  </div>\n\n</div>",
+        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .compare-section {\n    background: #f5f3ff;\n    padding: 48px 16px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n    text-align: center;\n  }\n\n  .compare-title {\n    font-size: 28px;\n    font-weight: 900;\n    color: #111;\n    text-transform: uppercase;\n    margin: 0 0 8px;\n  }\n\n  .compare-subtitle {\n    font-size: 15px;\n    color: #666;\n    margin: 0 0 32px;\n  }\n\n  .compare-wrapper {\n    max-width: 780px;\n    margin: 0 auto;\n    border-radius: 16px;\n    overflow: hidden;\n    box-shadow: 0 4px 32px rgba(139, 92, 246, 0.12);\n  }\n\n  .compare-header {\n    display: grid;\n    grid-template-columns: 2fr 1fr 1fr;\n    background: #111;\n  }\n\n  .compare-header-cell {\n    padding: 16px 12px;\n    font-size: 13px;\n    font-weight: 800;\n    color: #aaa;\n  }\n\n  .compare-header-cell.us {\n    background: #8b5cf6;\n    color: #fff;\n  }\n\n  .compare-row {\n    display: grid;\n    grid-template-columns: 2fr 1fr 1fr;\n    border-top: 1px solid #e9ddff;\n    background: #fff;\n  }\n\n  .compare-cell {\n    padding: 16px;\n    display: flex;\n    justify-content: center;\n    border-left: 1px solid #8b5cf6;\n  }\n\n  .compare-cell:first-child {\n    justify-content: flex-start;\n    border-left: none;\n    font-weight: 600;\n  }\n\n  .compare-cell.us-col {\n    background: #8b5cf6;\n  }\n\n  .check, .cross {\n    width: 26px;\n    height: 26px;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-weight: bold;\n  }\n\n  .check {\n    background: #8b5cf6;\n    color: #fff;\n  }\n\n  .cross {\n    background: #eee;\n    color: #aaa;\n  }\n</style>\n\n<div class=\"compare-section\">\n\n  <h2 class=\"compare-title\">Why Choose GlowPod?</h2>\n  <p class=\"compare-subtitle\">See how GlowPod compares to regular sunscreen application</p>\n\n  <div class=\"compare-wrapper\">\n\n    <div class=\"compare-header\">\n      <div class=\"compare-header-cell\">Features</div>\n      <div class=\"compare-header-cell us\">✦ GlowPod</div>\n      <div class=\"compare-header-cell\">Others</div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Mess-Free Sunscreen Application</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Portable & Travel-Friendly Design</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Soft Roller Applicator for Smooth Coverage</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Refillable & Reusable</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Perfect for Outdoor & Daily Use</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n  </div>\n\n</div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "custom_liquid_V8XFgq": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
+    "faq_ULhTVT": {
+      "type": "faq",
+      "blocks": {
+        "question_8CWfNK": {
+          "type": "question",
+          "settings": {
+            "title": "What is GlowPod?",
+            "text": "<p>GlowPod is a refillable sunscreen applicator designed for smooth, mess-free sunscreen application anytime and anywhere.</p><h3></h3>"
+          }
+        },
+        "question_cNUKjB": {
+          "type": "question",
+          "settings": {
+            "title": "How do I fill GlowPod?",
+            "text": "<p>Simply open the applicator, remove the roller top, pour in your favorite sunscreen, and securely close it before use.</p><h3></h3>"
+          }
+        },
+        "question_UM9xbe": {
+          "type": "question",
+          "settings": {
+            "title": "Is GlowPod reusable?",
+            "text": "<p>Yes! GlowPod is reusable and easy to clean, making it perfect for daily use and travel.</p><h3></h3>"
+          }
+        },
+        "question_8YXqmH": {
+          "type": "question",
+          "settings": {
+            "title": "How do I clean GlowPod?",
+            "text": "<p>Rinse the roller applicator with warm water and mild soap, then allow it to dry before refilling.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_8CWfNK",
+        "question_cNUKjB",
+        "question_UM9xbe",
+        "question_8YXqmH"
+      ],
+      "name": "t:sections.faq.presets.name",
       "settings": {
-        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .faq-section {\n    background: #fff;\n    padding: 48px 16px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n  }\n\n  .faq-inner {\n    max-width: 720px;\n    margin: 0 auto;\n  }\n\n  .faq-title {\n    font-size: 28px;\n    font-weight: 900;\n    color: #111;\n    text-transform: uppercase;\n    text-align: center;\n  }\n\n  .faq-subtitle {\n    font-size: 15px;\n    color: #666;\n    text-align: center;\n    margin-bottom: 36px;\n  }\n\n  .faq-item {\n    border-bottom: 1px solid #f0e0e5;\n  }\n\n  .faq-question {\n    width: 100%;\n    background: none;\n    border: none;\n    padding: 18px 4px;\n    display: flex;\n    justify-content: space-between;\n    cursor: pointer;\n    font-size: 15px;\n    font-weight: 700;\n  }\n\n  .faq-icon {\n    width: 28px;\n    height: 28px;\n    border-radius: 50%;\n    background: #b82e38;\n    border: 2px solid #f0ccd6;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    color: #c0607a;\n  }\n\n  .faq-question.open .faq-icon {\n    background: #c0607a;\n    color: #fff;\n    transform: rotate(45deg);\n  }\n\n  .faq-answer {\n    max-height: 0;\n    overflow: hidden;\n    transition: 0.3s;\n  }\n\n  .faq-answer.open {\n    max-height: 300px;\n    padding-bottom: 18px;\n  }\n\n  .faq-answer p {\n    font-size: 14px;\n    color: #555;\n  }\n</style>\n\n<div class=\"faq-section\">\n  <div class=\"faq-inner\">\n\n    <h2 class=\"faq-title\">Frequently Asked Questions</h2>\n    <p class=\"faq-subtitle\">Everything you need to know about our beauty stick ✨</p>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFaq(this)\">\n        How do I use the beauty stick?\n        <span class=\"faq-icon\">+</span>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Simply swipe it onto your cheeks, lips, or eyes and blend with your fingers, brush, or sponge for a smooth, natural finish.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFaq(this)\">\n        Can I use it on different parts of my face?\n        <span class=\"faq-icon\">+</span>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Yes! It’s a multi-use product designed for cheeks, lips, eyes, and more—making your routine quick and effortless.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFaq(this)\">\n        Is it suitable for sensitive skin?\n        <span class=\"faq-icon\">+</span>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Yes, it’s made with gentle, skin-friendly ingredients and is suitable for most skin types, including sensitive skin.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFaq(this)\">\n        Does it feel heavy or greasy?\n        <span class=\"faq-icon\">+</span>\n      </button>\n      <div class=\"faq-answer\">\n        <p>No, the formula is lightweight, creamy, and blends seamlessly into the skin without feeling heavy or greasy.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFaq(this)\">\n        Is it good for travel or on-the-go use?\n        <span class=\"faq-icon\">+</span>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Absolutely! Its compact, multi-use design makes it perfect for quick touch-ups anytime, anywhere.</p>\n      </div>\n    </div>\n\n  </div>\n</div>\n\n<script>\n  function toggleFaq(btn) {\n    const answer = btn.nextElementSibling;\n    const isOpen = btn.classList.contains('open');\n\n    document.querySelectorAll('.faq-question').forEach(q => q.classList.remove('open'));\n    document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('open'));\n\n    if (!isOpen) {\n      btn.classList.add('open');\n      answer.classList.add('open');\n    }\n  }\n</script>",
-        "full_width": false,
+        "narrow": false,
+        "secondary_background": false,
         "show_divider": false,
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -355,9 +378,8 @@
     "image_with_text_DzfFjg",
     "scrolling_promotion_TxXJLQ",
     "custom_liquid_XBTnDN",
-    "video_hHyVf7",
     "custom_liquid_9wriWH",
-    "custom_liquid_V8XFgq",
+    "faq_ULhTVT",
     "custom_liquid_iEVF9p",
     "guarantees_Yj7NaV"
   ]
