@@ -81,20 +81,12 @@
             "collection": "",
             "image_position": "center center"
           }
-        },
-        "featured_collection_bJMPQF": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "image_position": "center center"
-          }
         }
       },
       "block_order": [
         "featured_collection_c6R3ak",
         "featured_collection_yJnkbK",
-        "featured_collection_Xwmcng",
-        "featured_collection_bJMPQF"
+        "featured_collection_Xwmcng"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
