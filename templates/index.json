@@ -78,7 +78,7 @@
         "featured_collection_Xwmcng": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
+            "collection": "skin-care",
             "image_position": "center center"
           }
         }
@@ -213,38 +213,6 @@
         "padding_bottom": 36
       }
     },
-    "scrolling_promotion_yJEgih": {
-      "type": "scrolling-promotion",
-      "blocks": {
-        "announcement_pGUAFw": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "WELCOME TO ARZSTORE",
-            "text_size": 20,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_pGUAFw"
-      ],
-      "name": "t:sections.scrolling-promotion.presets.name",
-      "settings": {
-        "direction": "left",
-        "speed": 1.6,
-        "show_divider": false,
-        "use_custom_colors": true,
-        "colors_icon": "#ffffff",
-        "colors_text": "#ffffff",
-        "colors_background": "#b82e38",
-        "gradient_background": "",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "custom_liquid_Tw6VFQ": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -359,7 +327,6 @@
     "scrolling_promotion_gqQrxK",
     "scrolling_promotion_4AzLii",
     "rich_text_iPTEGL",
-    "scrolling_promotion_yJEgih",
     "custom_liquid_Tw6VFQ",
     "faq_VkHiGm",
     "guarantees_QbnCCW"
