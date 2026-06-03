@@ -71,7 +71,7 @@
         "featured_collection_yJnkbK": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
+            "collection": "brushes",
             "image_position": "center center"
           }
         },
