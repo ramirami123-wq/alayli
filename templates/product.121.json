@@ -150,7 +150,7 @@
         "heading_9DxViA": {
           "type": "heading",
           "settings": {
-            "heading": "Elevate Your Skincare Routine",
+            "heading": "Relax, Color & Unwind",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -158,7 +158,7 @@
         "text_KJgqzb": {
           "type": "text",
           "settings": {
-            "text": "<p>Experience a soothing and refreshing facial massage with the Face Massager Brush. Designed for the face, neck, and jawline, this versatile beauty tool helps support lymphatic drainage while promoting a smoother, more lifted appearance. Lightweight, easy to use, and perfect for daily skincare, it combines cleansing, massage, and relaxation in one compact design.</p>",
+            "text": "<p>Step into a world of cozy moments, cute fashion, and feel-good vibes with the <strong>Chill Girl Vibes Coloring Book</strong>. Packed with adorable illustrations and relaxing scenes, this coloring book is the perfect way to reduce stress, spark creativity, and enjoy peaceful screen-free time whenever you need a break. 💖🎨📖</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -170,7 +170,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/1776081191_phpq0mc1kvq4ecr8ONNnrf.png",
+        "image": "shopify://shop_images/ChatGPTImageApr19_2026_06_04_42PM.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -231,7 +231,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n<style>\n  .hurry-section {\n    background: #ffffff;\n    padding: 40px 24px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n    text-align: center;\n  }\n  .hurry-title {\n    font-size: 36px;\n    font-weight: 900;\n    color: #111;\n    text-transform: uppercase;\n    line-height: 1.1;\n    margin: 0 0 12px;\n  }\n  .hurry-subtitle {\n    font-size: 15px;\n    color: #333;\n    margin: 0 0 28px;\n  }\n  .hurry-bullets {\n    list-style: none;\n    padding: 0;\n    margin: 0 auto;\n    display: flex;\n    flex-direction: column;\n    gap: 16px;\n    text-align: left;\n    max-width: 620px;\n  }\n  .hurry-bullet {\n    display: flex;\n    gap: 14px;\n    font-size: 15px;\n    color: #222;\n  }\n  .hurry-check {\n    width: 28px;\n    height: 28px;\n    flex-shrink: 0;\n  }\n</style>\n\n<div class=\"hurry-section\">\n  <h2 class=\"hurry-title\">Refresh Your Glow<br>With Every Stroke</h2>\n  <p class=\"hurry-subtitle\">Use this face massager brush so you can...</p>\n\n  <ul class=\"hurry-bullets\">\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Enjoy a gentle massage that helps relax your face, neck, and jawline.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Support your skincare routine with smooth lymphatic drainage-style brushing.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Prep your skin before makeup for a refreshed and lifted-looking finish.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Add an easy self-care step to your daily beauty routine at home or while traveling.</span>\n    </li>\n  </ul>\n</div>",
+        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .hurry-section {\n    background: #ffffff;\n    padding: 40px 24px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n    text-align: center;\n  }\n  .hurry-title {\n    font-size: 36px;\n    font-weight: 900;\n    color: #111;\n    text-transform: uppercase;\n    line-height: 1.1;\n    margin: 0 0 12px;\n  }\n  .hurry-subtitle {\n    font-size: 15px;\n    color: #333;\n    margin: 0 0 28px;\n  }\n  .hurry-bullets {\n    list-style: none;\n    padding: 0;\n    margin: 0 auto;\n    display: flex;\n    flex-direction: column;\n    gap: 16px;\n    text-align: left;\n    max-width: 620px;\n  }\n  .hurry-bullet {\n    display: flex;\n    gap: 14px;\n    font-size: 15px;\n    color: #222;\n  }\n  .hurry-check {\n    width: 28px;\n    height: 28px;\n    flex-shrink: 0;\n  }\n</style>\n\n<div class=\"hurry-section\">\n  <h2 class=\"hurry-title\">Relax Your Mind<br>With Every Page</h2>\n  <p class=\"hurry-subtitle\">Use this cozy coloring book so you can...</p>\n\n  <ul class=\"hurry-bullets\">\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Enjoy relaxing screen-free time after school, work, or a long day.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Color cute and cozy designs filled with fashion, beauty, and chill girl vibes.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Boost creativity while creating pages that feel fun, aesthetic, and personal.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Give a cute gift for birthdays, holidays, cozy nights, or self-care moments.</span>\n    </li>\n  </ul>\n</div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -242,68 +242,20 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .compare-section {\n    background: #fff5f8;\n    padding: 48px 16px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n    text-align: center;\n  }\n\n  .compare-title {\n    font-size: 28px;\n    font-weight: 900;\n    color: #111;\n    text-transform: uppercase;\n    margin: 0 0 8px;\n  }\n\n  .compare-subtitle {\n    font-size: 15px;\n    color: #666;\n    margin: 0 0 32px;\n  }\n\n  .compare-wrapper {\n    max-width: 780px;\n    margin: 0 auto;\n    border-radius: 16px;\n    overflow: hidden;\n    box-shadow: 0 4px 32px rgba(192, 96, 122, 0.12);\n  }\n\n  .compare-header {\n    display: grid;\n    grid-template-columns: 2fr 1fr 1fr;\n    background: #111;\n  }\n\n  .compare-header-cell {\n    padding: 16px 12px;\n    font-size: 13px;\n    font-weight: 800;\n    color: #aaa;\n  }\n\n  .compare-header-cell.us {\n    background: #b82e38;\n    color: #fff;\n  }\n\n  .compare-row {\n    display: grid;\n    grid-template-columns: 2fr 1fr 1fr;\n    border-top: 1px solid #f0e0e5;\n    background: #fff;\n  }\n\n  .compare-cell {\n    padding: 16px;\n    display: flex;\n    justify-content: center;\n    border-left: 1px solid #b82e38;\n  }\n\n  .compare-cell:first-child {\n    justify-content: flex-start;\n    border-left: none;\n    font-weight: 600;\n  }\n\n  .compare-cell.us-col {\n    background: #b82e38;\n  }\n\n  .check, .cross {\n    width: 26px;\n    height: 26px;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-weight: bold;\n  }\n\n  .check {\n    background: #b82e38;\n    color: #fff;\n  }\n\n  .cross {\n    background: #eee;\n    color: #aaa;\n  }\n</style>\n\n<div class=\"compare-section\">\n\n  <h2 class=\"compare-title\">Why Choose This Face Massager Brush?</h2>\n  <p class=\"compare-subtitle\">See how it compares to regular beauty tools</p>\n\n  <div class=\"compare-wrapper\">\n\n    <div class=\"compare-header\">\n      <div class=\"compare-header-cell\">Features</div>\n      <div class=\"compare-header-cell us\">✦ Ours</div>\n      <div class=\"compare-header-cell\">Others</div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Gentle Face & Neck Massage</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Lymphatic Drainage Support</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">4-in-1 Beauty Use</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Smooth, Relaxing Skincare Routine</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Compact & Easy to Use Daily</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n  </div>\n\n</div>",
+        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .compare-section {\n    background: #fff5f8;\n    padding: 48px 16px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n    text-align: center;\n  }\n\n  .compare-title {\n    font-size: 28px;\n    font-weight: 900;\n    color: #111;\n    text-transform: uppercase;\n    margin: 0 0 8px;\n  }\n\n  .compare-subtitle {\n    font-size: 15px;\n    color: #666;\n    margin: 0 0 32px;\n  }\n\n  .compare-wrapper {\n    max-width: 780px;\n    margin: 0 auto;\n    border-radius: 16px;\n    overflow: hidden;\n    box-shadow: 0 4px 32px rgba(192, 96, 122, 0.12);\n  }\n\n  .compare-header {\n    display: grid;\n    grid-template-columns: 2fr 1fr 1fr;\n    background: #111;\n  }\n\n  .compare-header-cell {\n    padding: 16px 12px;\n    font-size: 13px;\n    font-weight: 800;\n    color: #aaa;\n  }\n\n  .compare-header-cell.us {\n    background: #b82e38;\n    color: #fff;\n  }\n\n  .compare-row {\n    display: grid;\n    grid-template-columns: 2fr 1fr 1fr;\n    border-top: 1px solid #f0e0e5;\n    background: #fff;\n  }\n\n  .compare-cell {\n    padding: 16px;\n    display: flex;\n    justify-content: center;\n    border-left: 1px solid #b82e38;\n  }\n\n  .compare-cell:first-child {\n    justify-content: flex-start;\n    border-left: none;\n    font-weight: 600;\n  }\n\n  .compare-cell.us-col {\n    background: #b82e38;\n  }\n\n  .check, .cross {\n    width: 26px;\n    height: 26px;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-weight: bold;\n  }\n\n  .check {\n    background: #b82e38;\n    color: #fff;\n  }\n\n  .cross {\n    background: #eee;\n    color: #aaa;\n  }\n</style>\n\n<div class=\"compare-section\">\n\n  <h2 class=\"compare-title\">Why Choose Chill Girl Vibes?</h2>\n  <p class=\"compare-subtitle\">See how it compares to regular coloring books</p>\n\n  <div class=\"compare-wrapper\">\n\n    <div class=\"compare-header\">\n      <div class=\"compare-header-cell\">Features</div>\n      <div class=\"compare-header-cell us\">✦ Ours</div>\n      <div class=\"compare-header-cell\">Others</div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Cute & Cozy Aesthetic Designs</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Relaxing Screen-Free Activity</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Fashion, Beauty & Self-Care Themes</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Perfect Gift for Cozy Girls</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Fun for Teens, Adults & Beginners</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n  </div>\n\n</div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "faq_UpMwHT": {
-      "type": "faq",
-      "blocks": {
-        "question_4mNW8W": {
-          "type": "question",
-          "settings": {
-            "title": "How do I use the Face Massager Brush?",
-            "text": "<p>Simply glide the brush gently across your face, neck, and jawline using upward and outward motions as part of your skincare routine.</p><p></p>"
-          }
-        },
-        "question_8gWRpM": {
-          "type": "question",
-          "settings": {
-            "title": "Can I use it every day?",
-            "text": "<p>Yes, the brush is suitable for daily use and can easily be incorporated into your morning or evening skincare routine.</p><p></p>"
-          }
-        },
-        "question_weQDJF": {
-          "type": "question",
-          "settings": {
-            "title": "Is it suitable for all skin types?",
-            "text": "<p>Yes, it is designed to be gentle and suitable for most skin types.</p><p></p>"
-          }
-        },
-        "question_nzK6fB": {
-          "type": "question",
-          "settings": {
-            "title": "Can I use it with serums or facial oils?",
-            "text": "<p>Yes, many users enjoy using it with their favorite serums, moisturizers, or facial oils for a smoother massage experience.</p><p></p>"
-          }
-        },
-        "question_kAgXPy": {
-          "type": "question",
-          "settings": {
-            "title": "What are the benefits of regular use?",
-            "text": "<p>Regular use can help enhance your self-care routine, provide a relaxing facial massage, and leave your skin feeling refreshed and revitalized.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "question_4mNW8W",
-        "question_8gWRpM",
-        "question_weQDJF",
-        "question_nzK6fB",
-        "question_kAgXPy"
-      ],
-      "name": "t:sections.faq.presets.name",
+    "custom_liquid_cTwDck": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "narrow": false,
-        "secondary_background": false,
+        "custom_liquid": "<style>\n  .faq-section {\n    max-width: 760px;\n    margin: 35px auto;\n    padding: 0 16px;\n    font-family: inherit;\n  }\n\n  .faq-title {\n    text-align: center;\n    font-size: 28px;\n    font-weight: 800;\n    margin-bottom: 22px;\n  }\n\n  .faq-item {\n    background: #fff5f8;\n    border: 1px solid #f0d6df;\n    border-radius: 14px;\n    margin-bottom: 12px;\n    overflow: hidden;\n  }\n\n  .faq-item summary {\n    padding: 16px 18px;\n    font-weight: 700;\n    cursor: pointer;\n    list-style: none;\n  }\n\n  .faq-item summary::-webkit-details-marker {\n    display: none;\n  }\n\n  .faq-item summary::after {\n    content: \"+\";\n    float: right;\n    font-size: 22px;\n  }\n\n  .faq-item[open] summary::after {\n    content: \"−\";\n  }\n\n  .faq-item p {\n    padding: 0 18px 16px;\n    margin: 0;\n    color: #555;\n    line-height: 1.6;\n    font-size: 15px;\n  }\n</style>\n\n<div class=\"faq-section\">\n  <h2 class=\"faq-title\">Frequently Asked Questions</h2>\n\n  <details class=\"faq-item\">\n    <summary>What is Chill Girl Vibes Coloring Book?</summary>\n    <p>It is a cute and cozy coloring book filled with relaxing pages inspired by fashion, beauty, self-care, and chill girl aesthetics.</p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>Who is this coloring book for?</summary>\n    <p>It is perfect for teens, adults, beginners, and anyone who enjoys cute, cozy, and relaxing coloring activities.</p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>Is it good for stress relief?</summary>\n    <p>Yes, coloring is a calming screen-free activity that helps you relax, unwind, and enjoy creative quiet time.</p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>Can I give it as a gift?</summary>\n    <p>Absolutely. It makes a thoughtful gift for birthdays, holidays, cozy nights, self-care baskets, or anyone who loves aesthetic coloring books.</p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>Do I need to be good at art?</summary>\n    <p>No. The designs are beginner-friendly and made for fun, relaxation, and creativity.</p>\n  </details>\n</div>",
+        "full_width": false,
         "show_divider": false,
-        "heading": "FAQs",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -392,7 +344,7 @@
     "scrolling_promotion_TxXJLQ",
     "custom_liquid_XBTnDN",
     "custom_liquid_9wriWH",
-    "faq_UpMwHT",
+    "custom_liquid_cTwDck",
     "17800631137cf83fca",
     "guarantees_Yj7NaV"
   ]
