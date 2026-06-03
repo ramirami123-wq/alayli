@@ -158,7 +158,7 @@
         "text_KJgqzb": {
           "type": "text",
           "settings": {
-            "text": "<p>Step into a world of cozy moments, cute fashion, and feel-good vibes with the <strong>Chill Girl Vibes Coloring Book</strong>. Packed with adorable illustrations and relaxing scenes, this coloring book is the perfect way to reduce stress, spark creativity, and enjoy peaceful screen-free time whenever you need a break. 💖🎨📖</p>",
+            "text": "<p>Step into a world of cozy moments, cute fashion, and feel-good vibes. Packed with adorable illustrations and relaxing scenes, this coloring book is the perfect way to reduce stress, spark creativity, and enjoy peaceful screen-free time whenever you need a break. 💖🎨📖</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -170,7 +170,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/ChatGPTImageApr19_2026_06_04_42PM.png",
+        "image": "shopify://shop_images/ChatGPTImageApr19_2026_06_10_24PM.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
