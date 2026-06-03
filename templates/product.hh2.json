@@ -1,0 +1,351 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": true,
+            "sale_badge_basis": "auto"
+          }
+        },
+        "custom_liquid_H9DXEK": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">✨ Brightening Eye Care</span> – Helps refresh the appearance of the under-eye area for a more awake look.<br><br>\n\n<span style=\"font-weight: bold;\">💧 Hydrating Gel Patches</span> – Delivers soothing hydration to leave skin feeling soft and refreshed.<br><br>\n\n<span style=\"font-weight: bold;\">❄️ Cooling & Refreshing</span> – Provides a cooling sensation that helps revive tired-looking eyes.<br><br>\n\n<span style=\"font-weight: bold;\">👜 Easy Self-Care Essential</span> – Perfect for mornings, travel, special events, or relaxing skincare routines.\n\n</div>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "custom_liquid_wbDEGx": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive by <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2);\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 5);\n\n        var formatDate = function(date) {\n            var dayNames = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n                \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var month = monthNames[date.getMonth()];\n            var weekday = dayNames[date.getDay()];\n            return weekday + \", \" + month + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' – ' + formatDate(maxDeliveryDate);\n    });\n</script>"
+          }
+        },
+        "related_buttons": {
+          "type": "related_buttons",
+          "disabled": true,
+          "settings": {
+            "show_icons": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "rating",
+        "price",
+        "custom_liquid_H9DXEK",
+        "variant_picker",
+        "buy_buttons",
+        "custom_liquid_wbDEGx",
+        "related_buttons",
+        "sticky_cart"
+      ],
+      "custom_css": [
+        ".product-form__submit {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "medium",
+        "gallery_layout": "thumbnail_slider",
+        "image_ratio": "adapt",
+        "show_featured_media": false,
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt_first",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 72
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_list_limit": 4,
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_DzfFjg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9DxViA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Brighten & Refresh Tired Eyes",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_KJgqzb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give your under-eye area a boost with Pixi BeautifEYE Brightening Eye Patches. These cooling gel patches help refresh the look of tired eyes, leaving your skin feeling hydrated, soothed, and revitalized. Perfect for your morning routine, self-care days, or whenever your eyes need a little extra care.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9DxViA",
+        "text_KJgqzb"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/PIXR-WU26_V1.avif",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling_promotion_TxXJLQ": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_FGWraM": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "delivery all over lebanon",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_FGWraM"
+      ],
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_background": "#b82e38",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_XBTnDN": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .hurry-section {\n    background: #ffffff;\n    padding: 40px 24px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n    text-align: center;\n  }\n  .hurry-title {\n    font-size: 36px;\n    font-weight: 900;\n    color: #111;\n    text-transform: uppercase;\n    line-height: 1.1;\n    margin: 0 0 12px;\n  }\n  .hurry-subtitle {\n    font-size: 15px;\n    color: #333;\n    margin: 0 0 28px;\n  }\n  .hurry-bullets {\n    list-style: none;\n    padding: 0;\n    margin: 0 auto;\n    display: flex;\n    flex-direction: column;\n    gap: 16px;\n    text-align: left;\n    max-width: 620px;\n  }\n  .hurry-bullet {\n    display: flex;\n    gap: 14px;\n    font-size: 15px;\n    color: #222;\n  }\n  .hurry-check {\n    width: 28px;\n    height: 28px;\n    flex-shrink: 0;\n  }\n</style>\n\n<div class=\"hurry-section\">\n  <h2 class=\"hurry-title\">Refresh Tired Eyes<br>With Every Patch</h2>\n  <p class=\"hurry-subtitle\">Use these brightening eye patches so you can...</p>\n\n  <ul class=\"hurry-bullets\">\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Refresh the look of tired under-eyes for a more awake appearance.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Hydrate and soothe the under-eye area with cooling gel patches.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Prep your skin before makeup for a smoother, fresher-looking finish.</span>\n    </li>\n\n    <li class=\"hurry-bullet\">\n      <svg class=\"hurry-check\" viewBox=\"0 0 28 28\" fill=\"none\">\n        <circle cx=\"14\" cy=\"14\" r=\"13\" fill=\"#b82e38\"/>\n        <path d=\"M8 14.5L12 18.5L20 10\" stroke=\"#fff\" stroke-width=\"2.2\"/>\n      </svg>\n      <span>Add an easy self-care step to your morning, night, or travel routine.</span>\n    </li>\n  </ul>\n</div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_9wriWH": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .compare-section {\n    background: #fff5f8;\n    padding: 48px 16px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n    text-align: center;\n  }\n\n  .compare-title {\n    font-size: 28px;\n    font-weight: 900;\n    color: #111;\n    text-transform: uppercase;\n    margin: 0 0 8px;\n  }\n\n  .compare-subtitle {\n    font-size: 15px;\n    color: #666;\n    margin: 0 0 32px;\n  }\n\n  .compare-wrapper {\n    max-width: 780px;\n    margin: 0 auto;\n    border-radius: 16px;\n    overflow: hidden;\n    box-shadow: 0 4px 32px rgba(192, 96, 122, 0.12);\n  }\n\n  .compare-header {\n    display: grid;\n    grid-template-columns: 2fr 1fr 1fr;\n    background: #111;\n  }\n\n  .compare-header-cell {\n    padding: 16px 12px;\n    font-size: 13px;\n    font-weight: 800;\n    color: #aaa;\n  }\n\n  .compare-header-cell.us {\n    background: #b82e38;\n    color: #fff;\n  }\n\n  .compare-row {\n    display: grid;\n    grid-template-columns: 2fr 1fr 1fr;\n    border-top: 1px solid #f0e0e5;\n    background: #fff;\n  }\n\n  .compare-cell {\n    padding: 16px;\n    display: flex;\n    justify-content: center;\n    border-left: 1px solid #b82e38;\n  }\n\n  .compare-cell:first-child {\n    justify-content: flex-start;\n    border-left: none;\n    font-weight: 600;\n  }\n\n  .compare-cell.us-col {\n    background: #b82e38;\n  }\n\n  .check, .cross {\n    width: 26px;\n    height: 26px;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-weight: bold;\n  }\n\n  .check {\n    background: #b82e38;\n    color: #fff;\n  }\n\n  .cross {\n    background: #eee;\n    color: #aaa;\n  }\n</style>\n\n<div class=\"compare-section\">\n\n  <h2 class=\"compare-title\">Why Choose BeautifEYE Patches?</h2>\n  <p class=\"compare-subtitle\">See how they compare to regular eye care products</p>\n\n  <div class=\"compare-wrapper\">\n\n    <div class=\"compare-header\">\n      <div class=\"compare-header-cell\">Features</div>\n      <div class=\"compare-header-cell us\">✦ Ours</div>\n      <div class=\"compare-header-cell\">Others</div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Brightening Under-Eye Care</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Cooling Gel Patch Formula</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Hydrates Tired-Looking Eyes</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Easy Self-Care Routine</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n    <div class=\"compare-row\">\n      <div class=\"compare-cell\">Perfect Before Makeup</div>\n      <div class=\"compare-cell us-col\"><span class=\"check\">✓</span></div>\n      <div class=\"compare-cell\"><span class=\"cross\">✗</span></div>\n    </div>\n\n  </div>\n\n</div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_cTwDck": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .faq-section {\n    max-width: 760px;\n    margin: 35px auto;\n    padding: 0 16px;\n    font-family: inherit;\n  }\n\n  .faq-title {\n    text-align: center;\n    font-size: 28px;\n    font-weight: 800;\n    margin-bottom: 22px;\n  }\n\n  .faq-item {\n    background: #fff5f8;\n    border: 1px solid #f0d6df;\n    border-radius: 14px;\n    margin-bottom: 12px;\n    overflow: hidden;\n  }\n\n  .faq-item summary {\n    padding: 16px 18px;\n    font-weight: 700;\n    cursor: pointer;\n    list-style: none;\n  }\n\n  .faq-item summary::-webkit-details-marker {\n    display: none;\n  }\n\n  .faq-item summary::after {\n    content: \"+\";\n    float: right;\n    font-size: 22px;\n  }\n\n  .faq-item[open] summary::after {\n    content: \"−\";\n  }\n\n  .faq-item p {\n    padding: 0 18px 16px;\n    margin: 0;\n    color: #555;\n    line-height: 1.6;\n    font-size: 15px;\n  }\n</style>\n\n<div class=\"faq-section\">\n  <h2 class=\"faq-title\">Frequently Asked Questions</h2>\n\n  <details class=\"faq-item\">\n    <summary>What are BeautifEYE patches used for?</summary>\n    <p>They are designed to refresh, hydrate, and brighten the look of tired under-eyes.</p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>How long should I leave them on?</summary>\n    <p>Leave the patches on for about 10–15 minutes, then gently remove them.</p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>Can I use them before makeup?</summary>\n    <p>Yes, they are great before makeup to help the under-eye area look smoother and more refreshed.</p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>Can I use them every day?</summary>\n    <p>Yes, they can be used daily or whenever your under-eyes need a quick refresh.</p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>How many patches are included?</summary>\n    <p>The jar includes 30 pairs, which equals 60 patches, plus a spatula.</p>\n  </details>\n</div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17800631137cf83fca": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_6XNAqX": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "real_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_6XNAqX"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "guarantees_Yj7NaV": {
+      "type": "guarantees",
+      "blocks": {
+        "guarantee_C9FjyP": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "DELIVERY ALL OVER LEBANON",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
+        "guarantee_hU6LiX": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "phone",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "24/7 SUPPORT",
+            "title_size": "h3",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "guarantee_C9FjyP",
+        "guarantee_hU6LiX"
+      ],
+      "name": "t:sections.guarantees.presets.name",
+      "settings": {
+        "layout": "default",
+        "column_alignment": "left",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "columns_desktop": 4,
+        "heading": "Guarantees",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "empty-space",
+    "main",
+    "product-recommendations",
+    "image_with_text_DzfFjg",
+    "scrolling_promotion_TxXJLQ",
+    "custom_liquid_XBTnDN",
+    "custom_liquid_9wriWH",
+    "custom_liquid_cTwDck",
+    "17800631137cf83fca",
+    "guarantees_Yj7NaV"
+  ]
+}
