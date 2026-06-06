@@ -58,53 +58,6 @@
         "padding_bottom": 36
       }
     },
-    "collection_list_hCUX7m": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_c6R3ak": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "girl-therapy-books",
-            "image_position": "center center"
-          }
-        },
-        "featured_collection_yJnkbK": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "brushes",
-            "image_position": "center center"
-          }
-        },
-        "featured_collection_Xwmcng": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "skin-care",
-            "image_position": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_c6R3ak",
-        "featured_collection_yJnkbK",
-        "featured_collection_Xwmcng"
-      ],
-      "name": "t:sections.collection-list.presets.name",
-      "settings": {
-        "show_view_all": false,
-        "show_divider": false,
-        "columns_desktop": 3,
-        "heading": "Collections",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "image_ratio": "square",
-        "apply_overlay": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "scrolling_promotion_gqQrxK": {
       "type": "scrolling-promotion",
       "blocks": {
@@ -135,6 +88,36 @@
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
+      }
+    },
+    "featured_collection_xH6Wzf": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "new",
+        "products_to_show": 4,
+        "horizontal_scroll": false,
+        "show_view_all": true,
+        "show_divider": false,
+        "heading": "Featured collection",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": false,
+        "secondary_image_max": 1,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "scrolling_promotion_4AzLii": {
@@ -323,8 +306,8 @@
   },
   "order": [
     "slideshow",
-    "collection_list_hCUX7m",
     "scrolling_promotion_gqQrxK",
+    "featured_collection_xH6Wzf",
     "scrolling_promotion_4AzLii",
     "rich_text_iPTEGL",
     "custom_liquid_Tw6VFQ",
