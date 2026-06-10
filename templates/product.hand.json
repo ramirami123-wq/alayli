@@ -157,7 +157,7 @@
         "heading_9DxViA": {
           "type": "heading",
           "settings": {
-            "heading": "360° Knee Support for Active Performance",
+            "heading": "Knee Support for Active Performance",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -165,7 +165,7 @@
         "text_KJgqzb": {
           "type": "text",
           "settings": {
-            "text": "<p>Move with confidence using this <strong>360° Compression Knee Support Sleeve</strong>, designed to provide stability, comfort, and flexible support during sports, workouts, and daily activities. Whether you're running, training, cycling, playing football, or lifting at the gym, this breathable knee sleeve helps reduce strain while allowing natural movement.</p>",
+            "text": "<p>Move with confidence using this <strong>Knee Support Sleeve</strong>, designed to provide stability, comfort, and flexible support during sports, workouts, and daily activities. Whether you're running, training, cycling, playing football, or lifting at the gym, this breathable knee sleeve helps reduce strain while allowing natural movement.</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -177,7 +177,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/P.jpg",
+        "image": "shopify://shop_images/rerere.jpg",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
